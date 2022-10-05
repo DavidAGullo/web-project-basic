@@ -1,0 +1,47 @@
+html{
+    background-color: rgb(151, 151, 151);
+}
+
+div{
+    background-color: aqua;
+}
+
+.body-main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#navbar{
+    display: block;
+    width: 100%;
+    background-color: rgba(200, 20, 20, 0.5);
+    text-decoration: none;
+}
+#nav-unorderList{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 0.5%;
+    text-decoration: none;
+}
+#nav-unorderList li{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+a:link, a:visited, a:active
+{
+    color: #000000; /* This is the color of the text on the Navbar*/
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.10);
+}
